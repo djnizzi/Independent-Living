@@ -30,6 +30,12 @@ The research evidence and its validation status belong in [research-memory.md](r
 - Created this log and a repository-wide Copilot instruction to prompt future sessions to maintain it.
 - The user requested a commit and push tagged `v0.0.1` for the project setup files.
 
+### Agent revision requested
+
+- Claude examined `v0.0.1` and proposed improvements; the designer asked Copilot to implement them after review and confirmation.
+- The designer approved the proposed changes, separate agent/project versioning, a `v0.1.0` Git tag, the citation-checker conventions, and this workflow update.
+- The designer retained ownership of insight validation and the metrics baseline. `context.md` and `research-memory.md` must not be modified without permission.
+
 ## Current status and next steps
 
 - Review `Team3.pdf` using a readable version or accessible export and incorporate any additional requirements.
