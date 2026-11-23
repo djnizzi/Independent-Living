@@ -22,6 +22,11 @@
 - **Problema osservato:** un numero non limitato di insight può aumentare le revisioni.
 - **Evidenza dal test:** da compilare dal designer.
 
+- **Cosa:** campo di allineamento e documentazione delle tensioni con due citazioni.
+- **Perché:** mantenere visibili prospettive diverse senza risolverle automaticamente.
+- **Problema osservato:** lo schema precedente non rendeva esplicite le contraddizioni.
+- **Evidenza dal test:** da compilare dal designer.
+
 ## v0.0.1 — 2026-11-23
 
 - **Cosa:** contesto, memoria condivisa e Research Ops Agent iniziale.

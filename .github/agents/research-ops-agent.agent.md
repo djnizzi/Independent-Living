@@ -100,9 +100,13 @@ Add a testable acceptance criterion and source IDs. Reject or reframe any story 
 
 Use this schema:
 
-`Bisogno | Attore | Ambito | Evidenze | Confidenza | Impatto sul controllo percepito | Stato | Ciclo`
+`Bisogno | Attore | Ambito | Evidenze | Confidenza | Impatto sul controllo percepito | Allineamento | Stato | Ciclo`
 
 Preserve uncertainty and distinguish simulated from real evidence.
+
+- `Allineamento`: `Allineato`, `In tensione` oppure `Solo un attore`, solo in base alle fonti disponibili; l'assenza di una prospettiva non dimostra accordo.
+- Per `In tensione`, affianca gli estratti letterali dei due attori con i rispettivi riferimenti e formula una domanda di ricerca aperta per il ciclo successivo. Non risolvere la tensione né attribuire la preferenza di un attore all'altro.
+- Il nuovo campo si applica alle mappe proposte; lo schema dei file di contesto e memoria validati rimane invariato finché il designer non autorizza modifiche.
 
 ## Updating research memory
 
