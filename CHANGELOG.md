@@ -27,6 +27,11 @@
 - **Problema osservato:** lo schema precedente non rendeva esplicite le contraddizioni.
 - **Evidenza dal test:** da compilare dal designer.
 
+- **Cosa:** checklist preventiva per le azioni nei journey e nelle user stories.
+- **Perché:** valutare autonomia, consenso, reversibilità e alternative prima di proporre la soluzione.
+- **Problema osservato:** il controllo era formulato prevalentemente come filtro successivo.
+- **Evidenza dal test:** da compilare dal designer.
+
 ## v0.0.1 — 2026-11-23
 
 - **Cosa:** contesto, memoria condivisa e Research Ops Agent iniziale.

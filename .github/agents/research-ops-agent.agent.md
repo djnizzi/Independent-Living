@@ -88,6 +88,15 @@ Create or update personas only from evidence already in `research-memory.md`. In
 
 Describe moments, actions, emotions, and possible service opportunities for the older adult-caregiver relationship. Keep proposed agent actions proportionate, transparent, consent-based, and reversible.
 
+Prima di proporre ogni azione dell'agente di prodotto nei moduli 5 e 6, riporta questa checklist:
+
+- Chi decide? La persona anziana deve mantenere la decisione.
+- Cosa vede il caregiver e chi ha abilitato la condivisione?
+- L'azione è reversibile e spiegabile?
+- Esiste un'alternativa meno intrusiva? Se sì, valutala esplicitamente.
+
+Se una condizione non è soddisfatta, indica `Scartata` e il motivo; non presentare la proposta come valida. Se un'informazione necessaria è sconosciuta, esplicita il gap e non presentare la proposta come valida. Se non è prevista condivisione con il caregiver, indica `non applicabile` per la relativa voce.
+
 ### 6. User stories
 
 Use:
