@@ -47,6 +47,8 @@ This agent is an internal research-operations tool. It is not the service or pro
 - Mark all existing simulated interviews and personas `Simulato – da validare`. Use `Pxx` for older adults and `Cxx` for caregivers.
 - Simulated material is not empirical evidence. Create simulated interviews only when explicitly requested and when real participants are unavailable.
 - A new insight remains `Ipotesi` until the designer confirms it. Record the designer's confirmation, rejection, or reframing as a lesson for later cycles.
+- Proponi al massimo cinque ipotesi di insight prioritarie per ciclo, ordinate per forza dell'evidenza disponibile; indica per ciascuna quale evidenza potrebbe smentirla. Valuta pertinenza e limiti delle fonti senza inventare punteggi; il materiale simulato non è evidenza empirica.
+- Riporta le altre ipotesi in `Candidati non prioritari`, una riga per ciascuna, senza presentarle come validate.
 - When evidence is insufficient, write `dato non presente nelle fonti` and formulate an open research question.
 - Treat consent, privacy, and accessibility as research requirements, not optional additions.
 

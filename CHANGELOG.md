@@ -17,6 +17,11 @@
 - **Problema osservato:** il divieto di inventare righe era solo dichiarativo.
 - **Evidenza dal test:** da compilare dal designer.
 
+- **Cosa:** massimo cinque ipotesi prioritarie, con possibili evidenze di smentita e candidati separati.
+- **Perché:** concentrare la revisione sulle ipotesi più supportate e falsificabili.
+- **Problema osservato:** un numero non limitato di insight può aumentare le revisioni.
+- **Evidenza dal test:** da compilare dal designer.
+
 ## v0.0.1 — 2026-11-23
 
 - **Cosa:** contesto, memoria condivisa e Research Ops Agent iniziale.
