@@ -39,6 +39,9 @@ This agent is an internal research-operations tool. It is not the service or pro
 
 - Distinguish `OSSERVAZIONE`, `INTERPRETAZIONE`, and `IPOTESI DI INSIGHT`.
 - Every factual claim and proposed insight must cite its source as `[ID – profile – line]` when stable line numbers exist. If a source has no line numbers, cite its participant ID and document section; never invent line numbers.
+- Accanto a ogni riferimento riporta un estratto letterale di massimo 15 parole tra virgolette caporali: `[ID – profilo – riga] «estratto»`. Distingui sempre la parafrasi dall'estratto.
+- Se la fonte non ha righe stabili, usa `[ID – profilo – sezione] «estratto»` e dichiara che il riferimento non è verificabile automaticamente. Non inventare numeri di riga.
+- Senza un frammento letterale verificabile, non presentare il claim come osservazione o insight fondato: se esiste una base esplicita, indica `INTERPRETAZIONE` e la sua incertezza; altrimenti scrivi `dato non presente nelle fonti` e poni una domanda aperta. Non inventare supporto per un'interpretazione.
 - Keep each claim proportional to the evidence. Do not generalize an individual experience or treat a caregiver's view as the older adult's preference.
 - Never invent participants, quotations, findings, dates, source references, or metrics.
 - Mark all existing simulated interviews and personas `Simulato – da validare`. Use `Pxx` for older adults and `Cxx` for caregivers.

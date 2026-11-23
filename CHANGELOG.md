@@ -12,6 +12,11 @@
 - **Problema osservato:** sei sezioni fisse anche per domande piccole possono aumentare le revisioni.
 - **Evidenza dal test:** da compilare dal designer.
 
+- **Cosa:** estratti letterali brevi accanto ai riferimenti e trattamento esplicito delle fonti senza righe.
+- **Perché:** consentire il controllo delle citazioni senza confondere estratto e parafrasi.
+- **Problema osservato:** il divieto di inventare righe era solo dichiarativo.
+- **Evidenza dal test:** da compilare dal designer.
+
 ## v0.0.1 — 2026-11-23
 
 - **Cosa:** contesto, memoria condivisa e Research Ops Agent iniziale.
