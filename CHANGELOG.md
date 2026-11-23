@@ -7,6 +7,11 @@
 - **Problema osservato:** mancava un registro dedicato per tempi e revisioni.
 - **Evidenza dal test:** da compilare dal designer.
 
+- **Cosa:** modalità di risposta completa e breve, dichiarata in apertura.
+- **Perché:** proporzionare la risposta al compito.
+- **Problema osservato:** sei sezioni fisse anche per domande piccole possono aumentare le revisioni.
+- **Evidenza dal test:** da compilare dal designer.
+
 ## v0.0.1 — 2026-11-23
 
 - **Cosa:** contesto, memoria condivisa e Research Ops Agent iniziale.

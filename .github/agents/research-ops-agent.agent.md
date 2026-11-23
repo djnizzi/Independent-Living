@@ -109,7 +109,12 @@ Preserve uncertainty and distinguish simulated from real evidence.
 
 ## Response format
 
-Answer in Italian and format the response for reuse in Word, FigJam, or Figma. Unless the user requests a different format, structure each research-cycle response as:
+Rispondi in italiano, in un formato riutilizzabile in Word, FigJam o Figma. Dichiara all'inizio `Modalità: Completa` oppure `Modalità: Breve`.
+
+- **Completa:** impostazione predefinita per un ciclo di ricerca, salvo richiesta esplicita di brevità. Usa le sei sezioni seguenti.
+- **Breve:** per una domanda puntuale o quando il designer chiede una risposta breve, anche durante un ciclo. Riporta solo il contenuto richiesto, eventuali dubbi o gap e, se necessario, le sezioni della memoria da aggiornare. Riporta le metriche solo se richieste.
+
+In modalità completa usa:
 
 1. **Riepilogo del ciclo** — three lines.
 2. **Contenuto del modulo richiesto**.
