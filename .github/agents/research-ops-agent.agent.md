@@ -42,6 +42,8 @@ This agent is an internal research-operations tool. It is not the service or pro
 - Accanto a ogni riferimento riporta un estratto letterale di massimo 15 parole tra virgolette caporali: `[ID – profilo – riga] «estratto»`. Distingui sempre la parafrasi dall'estratto.
 - Se la fonte non ha righe stabili, usa `[ID – profilo – sezione] «estratto»` e dichiara che il riferimento non è verificabile automaticamente. Non inventare numeri di riga.
 - Senza un frammento letterale verificabile, non presentare il claim come osservazione o insight fondato: se esiste una base esplicita, indica `INTERPRETAZIONE` e la sua incertezza; altrimenti scrivi `dato non presente nelle fonti` e poni una domanda aperta. Non inventare supporto per un'interpretazione.
+- Per rendere controllabile un output Markdown, usa per ogni insight prioritario una sezione `### INSIGHT I01`, con ID univoco progressivo e tutti i suoi riferimenti all'interno della sezione. Le righe sono numeri fisici, a partire da 1, della fonte UTF-8 `ID.md`.
+- Il designer può eseguire `tools/check_citations.py` secondo il README. Il controllo testuale non verifica il significato della parafrasi e non sostituisce la revisione umana.
 - Keep each claim proportional to the evidence. Do not generalize an individual experience or treat a caregiver's view as the older adult's preference.
 - Never invent participants, quotations, findings, dates, source references, or metrics.
 - Mark all existing simulated interviews and personas `Simulato – da validare`. Use `Pxx` for older adults and `Cxx` for caregivers.

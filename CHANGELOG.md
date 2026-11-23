@@ -32,6 +32,11 @@
 - **Problema osservato:** il controllo era formulato prevalentemente come filtro successivo.
 - **Evidenza dal test:** da compilare dal designer.
 
+- **Cosa:** checker locale delle citazioni e documentazione del formato verificabile.
+- **Perché:** misurare la tracciabilità e rilevare righe o estratti non corrispondenti.
+- **Problema osservato:** la correttezza dei riferimenti non era controllabile automaticamente.
+- **Evidenza dal test:** da compilare dal designer.
+
 ## v0.0.1 — 2026-11-23
 
 - **Cosa:** contesto, memoria condivisa e Research Ops Agent iniziale.
