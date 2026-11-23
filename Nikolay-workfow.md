@@ -35,6 +35,7 @@ The research evidence and its validation status belong in [research-memory.md](r
 - Claude examined `v0.0.1` and proposed improvements; the designer asked Copilot to implement them after review and confirmation.
 - The designer approved the proposed changes, separate agent/project versioning, a `v0.1.0` Git tag, the citation-checker conventions, and this workflow update.
 - The designer retained ownership of insight validation and the metrics baseline. `context.md` and `research-memory.md` must not be modified without permission.
+- Implemented the eight logical changes in the requested order, including synthetic adversarial fixtures and citation-checker tests. The checker tests use only synthetic fixture material; the three agent-behavior scenarios still need to be run and reviewed with the designer.
 
 ## Current status and next steps
 

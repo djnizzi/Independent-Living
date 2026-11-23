@@ -13,6 +13,7 @@ REFERENCE = re.compile(
 )
 EXCERPT = re.compile(r"[ \t]*«([^»\n]*)»")
 INSIGHT = re.compile(r"^### INSIGHT (I[0-9]+)\s*$")
+CANDIDATE = re.compile(r"^- \*\*CANDIDATO (I[0-9]+)\*\*:")
 HEADING = re.compile(r"^#{1,3}\s")
 
 
@@ -28,8 +29,10 @@ def validate_reference(source_dir, source_id, line_value, excerpt):
         return "non valida", "estratto mancante o non immediatamente accanto al riferimento"
     if not excerpt.strip() or len(excerpt.split()) > 15:
         return "non valida", "estratto vuoto o superiore a 15 parole"
-    if not re.fullmatch(r"[1-9][0-9]*", line_value):
+    if not re.fullmatch(r"[0-9]+", line_value):
         return "non verificabile", "riferimento privo di numero di riga fisica"
+    if int(line_value) == 0:
+        return "non valida", "le righe fisiche iniziano da 1"
 
     source = source_dir / f"{source_id}.md"
     if not source.is_file():
@@ -54,8 +57,9 @@ def check(output, source_dir):
     current_insight = None
     for output_line, text in enumerate(output.splitlines(), start=1):
         heading = INSIGHT.fullmatch(text)
-        if heading:
-            current_insight = heading.group(1)
+        candidate = CANDIDATE.match(text)
+        if heading or candidate:
+            current_insight = (heading or candidate).group(1)
             if current_insight in insights:
                 raise ValueError(f"ID insight duplicato: {current_insight}")
             insights[current_insight] = []
@@ -71,6 +75,8 @@ def check(output, source_dir):
             citations.append(citation)
             if current_insight is not None:
                 insights[current_insight].append(citation)
+        if candidate:
+            current_insight = None
     return citations, insights
 
 

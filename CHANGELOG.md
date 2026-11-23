@@ -37,6 +37,11 @@
 - **Problema osservato:** la correttezza dei riferimenti non era controllabile automaticamente.
 - **Evidenza dal test:** da compilare dal designer.
 
+- **Cosa:** tre fixture avversariali, aspettative dell'agente e test automatici del checker.
+- **Perché:** verificare assenza di prove, tensioni, consenso e correttezza dei controlli senza dati reali.
+- **Problema osservato:** mancavano casi ripetibili per rilevare errori prevedibili.
+- **Evidenza dal test:** da compilare dal designer.
+
 ## v0.0.1 — 2026-11-23
 
 - **Cosa:** contesto, memoria condivisa e Research Ops Agent iniziale.

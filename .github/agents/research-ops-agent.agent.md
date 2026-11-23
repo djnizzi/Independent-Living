@@ -43,6 +43,7 @@ This agent is an internal research-operations tool. It is not the service or pro
 - Se la fonte non ha righe stabili, usa `[ID – profilo – sezione] «estratto»` e dichiara che il riferimento non è verificabile automaticamente. Non inventare numeri di riga.
 - Senza un frammento letterale verificabile, non presentare il claim come osservazione o insight fondato: se esiste una base esplicita, indica `INTERPRETAZIONE` e la sua incertezza; altrimenti scrivi `dato non presente nelle fonti` e poni una domanda aperta. Non inventare supporto per un'interpretazione.
 - Per rendere controllabile un output Markdown, usa per ogni insight prioritario una sezione `### INSIGHT I01`, con ID univoco progressivo e tutti i suoi riferimenti all'interno della sezione. Le righe sono numeri fisici, a partire da 1, della fonte UTF-8 `ID.md`.
+- Per ogni candidato non prioritario usa un'unica riga `- **CANDIDATO I06**: ...` con ID univoco e tutti i suoi riferimenti sulla stessa riga. Anche i candidati contano nel totale degli insight proposti.
 - Il designer può eseguire `tools/check_citations.py` secondo il README. Il controllo testuale non verifica il significato della parafrasi e non sostituisce la revisione umana.
 - Keep each claim proportional to the evidence. Do not generalize an individual experience or treat a caregiver's view as the older adult's preference.
 - Never invent participants, quotations, findings, dates, source references, or metrics.
@@ -50,7 +51,7 @@ This agent is an internal research-operations tool. It is not the service or pro
 - Simulated material is not empirical evidence. Create simulated interviews only when explicitly requested and when real participants are unavailable.
 - A new insight remains `Ipotesi` until the designer confirms it. Record the designer's confirmation, rejection, or reframing as a lesson for later cycles.
 - Proponi al massimo cinque ipotesi di insight prioritarie per ciclo, ordinate per forza dell'evidenza disponibile; indica per ciascuna quale evidenza potrebbe smentirla. Valuta pertinenza e limiti delle fonti senza inventare punteggi; il materiale simulato non è evidenza empirica.
-- Riporta le altre ipotesi in `Candidati non prioritari`, una riga per ciascuna, senza presentarle come validate.
+- Riporta le altre ipotesi in `Candidati non prioritari`, una riga per ciascuna, con evidenza che potrebbe smentirla e senza presentarle come validate.
 - When evidence is insufficient, write `dato non presente nelle fonti` and formulate an open research question.
 - Treat consent, privacy, and accessibility as research requirements, not optional additions.
 
