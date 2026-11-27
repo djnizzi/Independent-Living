@@ -12,7 +12,18 @@ The project is part of the Smart Home & Connected Living AI-Augmented Design Cha
 
 - Figma, page **01. Brainstorming Azzurra**, node `9:3`: [Independent Living — Eng](https://www.figma.com/design/XPH6H7C0SX9qvFE0pZPRye/Independent-Living----Eng?node-id=9-3).
 - `Independent_Living_Research_Kit.docx`: project brief, initial simulated research kit, memory structure, metrics, and agent prompt.
-- `Team3.pdf` was not reliably readable in the available viewer. Do not claim to have reviewed it or infer additional requirements from it. Ask the designer to resolve any discrepancy if it contains information not present in the DOCX or Figma page.
+- `Team3.pdf` (4 image-only slides, reviewed 2026-11-24 by rendering the pages): Brief 3/6 of the AI-Augmented Design Challenge, client brief Bticino / Riello. Ask the designer to resolve any discrepancy between it and the DOCX or Figma page.
+
+## Client brief (from `Team3.pdf`)
+
+- **Scenario:** a home-systems company wants to enter Smart Home & Connected Living with services that help people over 70 live autonomously at home, supporting autonomy and safety without creating a perception of control.
+- **Challenge:** design an experience already projected to an agentic model, in which AI agents support independent living without replacing the person's choices.
+- **Constraint:** during the project the client requires an **optional** mode for involving caregivers.
+- **Possible design areas:** smart home, behavioral monitoring, communication with caregivers, wellbeing and prevention, support for daily activities.
+- **Asset to build:** the Research Ops Agent, which prepares the research protocol, synthesizes interviews and tests, and keeps the needs map of older adults and caregivers up to date. It may integrate with GitHub Copilot, Eng Code, or Figma, and may start from Open Claw or GitHub agent libraries.
+- **Measures:** time from protocol to synthesis, insights traceable to the source, and human revisions needed.
+- **Designer's role:** checks syntheses against sources and decides what is truly an insight, starting from the theme of perceived control.
+- **Reference:** Università di Bologna, a broader user-research method to guide questions, listening, and choices.
 
 ## People and needs to consider
 
